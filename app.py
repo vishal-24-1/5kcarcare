@@ -116,7 +116,7 @@ Use a polite and professional tone consistently.
         "generationConfig": generation_config
     }
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=AIzaSyBPIt2Or0wKOxjyqtre4bhTJkL1ZgQyhhE"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=AIzaSyAiIgMpguwT4b4AlWDX7EwPQq8UTwDhtXc"
     headers = {"Content-Type": "application/json"}
 
     for attempt in range(max_retries):
